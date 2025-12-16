@@ -32,7 +32,6 @@ function App() {
       setMovies(data.results);
     } catch {
       setIsError(true);
-      toast.error("Something went wrong. Try again.");
     } finally {
       setIsLoader(false);
     }
